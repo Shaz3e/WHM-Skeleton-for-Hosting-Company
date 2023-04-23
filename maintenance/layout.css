@@ -1,0 +1,129 @@
+*{font-family: 'Poppins', sans-serif;box-sizing: border-box;margin: 0;padding: 0;}
+html,body{width:100%;height:100%;}
+html{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body{margin:0;padding:0;}
+#particles-js{
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+@media(max-width:768px){
+	#particles-js{
+		background-image: none;
+	}
+}
+.clearfix:after{clear: both;}
+.clearfix:before,.clearfix:after{display: table;content: " ";}
+.scale__container--js {text-align: center;}
+.scale--js{display: inline-block;transform-origin: 50% 0;-webkit-font-smoothing: antialiased;transform: translate3d( 0, 0, 0);}
+
+
+#ResellerBytes{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	margin-top: 100px;
+	margin-left: 10%;
+	width: 45%;
+}
+@media(max-width:768px){
+	.container{
+		width:80%;
+	}
+}
+.logo{
+	width: 250px;
+	display: block;
+}
+.logo a{}
+.logo a img{width: 100%;}
+
+.sitename{}
+.sitename h1{
+	font-weight: 700;
+	color: #001141;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+.credit{
+	margin-top: -40px;
+	position: relative;
+}
+.credit span{
+	padding-left: 60px;
+}
+.credit span:before{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background-color: #919598;
+}
+
+.content{
+	width: 80%;
+	margin-top: -50px;
+}
+@media(max-width:768px){
+	.content{
+		text-align:center;
+		width: 100%;
+		margin-top: -10px;
+	}
+}
+.content h2{
+	font-weight: 500;
+	color: #2B4582;
+	margin-top: 0;
+	padding: 0;
+}
+
+
+.nagivation{
+	width: 100%;
+	position: relative;
+	line-height: 100%;
+}
+.nagivation .owner,.nagivation .visitor{
+	font-weight: 100;
+	width: 45%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin: 2.5%;
+	padding:10px 15px;
+	color: #4e4e51;
+	border: solid 1px #a1a1a1;
+}
+.nagivation .owner:hover,.nagivation .visitor:hover{
+	color: white;
+	background-color: black;
+}
+.nagivation .owner{}
+.nagivation .visitor{}
+
+.image{
+	display:none;
+}
+.image .responsive{
+  width: 100%;
+  height: auto;
+}
+@media(max-width:768px){
+	.image{
+		display: block;
+	}
+}
