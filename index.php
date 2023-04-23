@@ -38,7 +38,7 @@ $credit = "ResellerBytes";
                 <div class="credit">
                     <span>Proudly hosted by</span>
                 </div>
-                <a href="https://www.resellerbytes.com?utm_source=<?php echo $sitename; ?>&utm_medium=<?php echo $sitename; ?>&utm_campaign=hostedpage&utm_id=<?php echo $sitename; ?>"><img src="maintenance/logo.png" alt="<?php echo $credit; ?>"></a>
+                <a href="<?php echo $link;?>?utm_source=<?php echo $sitename; ?>&utm_medium=<?php echo $sitename; ?>&utm_campaign=hostedpage&utm_id=<?php echo $sitename; ?>"><img src="maintenance/logo.png" alt="<?php echo $credit; ?>"></a>
             </div>
             <div class="sitename">
                 <div class="scale__container--js">
@@ -54,7 +54,7 @@ $credit = "ResellerBytes";
 
             <div class="nagivation">
                 <a class="owner" href="https://portal.resellerbytes.com?utm_source=owner&utm_medium=<?php echo $sitename; ?>&utm_campaign=hostedpage&utm_id=<?php echo $sitename; ?>">Site Owner</a>
-                <a class="visitor" href="https://www.resellerbytes.com?utm_source=visitor&utm_medium=<?php echo $sitename; ?>&utm_campaign=hostedpage&utm_id=<?php echo $sitename; ?>">Visitor</a>
+                <a class="visitor" href="<?php echo $link;?>?utm_source=visitor&utm_medium=<?php echo $sitename; ?>&utm_campaign=hostedpage&utm_id=<?php echo $sitename; ?>">Visitor</a>
             </div>
         </div>
 
